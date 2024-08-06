@@ -7,6 +7,7 @@
     <title>IVO INFO 2024</title>
     <link rel="stylesheet" href="assets/css/estilosInicio.css">
     <link rel="shortcut icon" href="assets/images/ico.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
     
@@ -24,8 +25,23 @@
             <span class="gradient"></span>
             <span class="spotlight"></span>
         </div>
+
+        <div class="container">
+            <button class="btn" onclick="abrirJuego()">
+            <svg width="277" height="62">
+              <defs>
+                  <linearGradient id="grad1">
+                      <stop offset="0%" stop-color="#FF8282"/>
+                      <stop offset="100%" stop-color="#E178ED" />
+                  </linearGradient>
+              </defs>
+               <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+            </svg>
+              <span>Jugar</span>
+        </button>
+          </div>
         
-        <button onclick="abrirJuego()">Jugar</button>
+        <!-- <button onclick="abrirJuego()">Jugar</button> -->
     </div>
     
 
