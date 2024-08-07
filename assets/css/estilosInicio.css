@@ -127,12 +127,12 @@
           transition: all 600ms ease;
       }
       
-      .btn span{
-        background: rgba(0,212,255,1);
-        
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+    .btn span{
+      background: rgba(0,212,255,1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
       
       .btn:hover svg rect {
           stroke-width: 4;
