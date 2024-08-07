@@ -130,6 +130,7 @@
       .btn span{
         background: rgba(0,212,255,1);
         
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
       
