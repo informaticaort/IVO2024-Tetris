@@ -1452,10 +1452,10 @@
         caught = true;
         if (game.options.asdwKeys) {   // usando asd
           switch(evt.keyCode) {  
-            case 37: /*left*/   moveLeft(true); break;
-            case 39: /*right*/  moveRight(true); break;
-            case 40: /*down*/   drop(true); break;
-            case 38: /*up*/     game._board.cur.rotate('right'); break;
+            case 1: /*left*/   moveLeft(true); break;
+            case 1: /*right*/  moveRight(true); break;
+            case 1: /*down*/   drop(true); break;
+            case 1: /*up*/     game._board.cur.rotate('right'); break;
            
           }
         }
