@@ -568,7 +568,7 @@
         },
         rightZag: function() {
           return new Shape(game, game._shapes.rightZag, false, 'rightZag');
-        }
+        },
 
         /* AGREGAR CREACIÓN DE NUEVA FIGURA. 
         SE DEBE COMPLETAR COMO 
