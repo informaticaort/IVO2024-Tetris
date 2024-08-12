@@ -405,7 +405,7 @@
         [2, -1,   1, -1,   1,  0,   0,  0],
         [0, -2,   0, -1,   1, -1,   1,  0],
         [0,  0,   1,  0,   1, -1,   2, -1]
-      ]
+      ],
 
       //ESPACIO PARA AGREGAR NUEVAS FIGURAS. SE DEBE USAR NOMBRE_DE_FIGURA: [ [PRIMER POSICION], [SEGUNDA POSICION], [TERCER POSICION], [CUARTA POSICION] ]
 
