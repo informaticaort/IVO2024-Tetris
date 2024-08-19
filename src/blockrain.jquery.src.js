@@ -1451,12 +1451,12 @@
 
         caught = true;
         if (game.options.asdwKeys) {   // usando asd
-          switch(evt.keyCode) {  
-            case 1: /*left*/   moveLeft(true); break;
-            case 1: /*right*/  moveRight(true); break;
-            case 1: /*down*/   drop(true); break;
-            case 1: /*up*/     game._board.cur.rotate('right'); break;
-           
+          switch(evt.keyCode) {
+            case 1:    moveLeft(true); break;  // flecha izquierda
+            case 1:    moveRight(true); break; // flecha derecha
+            case 1:    drop(true); break;     // flecha abajo
+            case 1:    game._board.cur.rotate('right'); break; // flecha arriba
+            default: caught = false;
           }
         }
         
